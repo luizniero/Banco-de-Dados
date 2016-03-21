@@ -1,0 +1,19 @@
+# Banco-de-Dados
+
+    Def: Modelo de dados:
+        Um modelo de dados é uma coleção de ferramentas conceituais para descrever dados, relações de dados, semãntica de dados
+        e restrições de consistência.
+        Permite especificar o projeto de banco de dados;
+        É necessário me amarrar aos postulados conceituais do modelo para especificar meu projeto de dados.
+        
+PARTE 1:  O MODELO RELACIONAL
+    É o principal modelo de dados para aplicações comerciais de processamento de dados.
+    
+        Um banco de dados relacional consiste em uma coleção de tabelas, cada uma com um nome único atribuído.  Uma linha em uma 
+    tabela representa uma relação entre um conjunto de valores.  Informalmente, a tabela é um conjunto de entidades, e uma linha
+    é uma entidade.
+        Considere uma tabela com 3 cabeçalhos: Num conta, nome agencia, saldo.  Chamamos estes cabeçalhos de atributos.  Para
+    cada atributo existe um conjunto de valores permitidos, que é o domínio deste atributo.  Para o atrib. nome agencia, por
+    exemplo, o domínio é o conjunto de todos os nomes de agendia.  Qualquer linha de conta precisa consistir numa tupla de 3
+    informações (num conta, nome agendia, saldo).  Assim, dizemos que conta é o subconjunto destes 3 atributos.
+    
